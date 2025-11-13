@@ -18,8 +18,10 @@
 * Вёрстка кнопок может ломаться в Outlook Desktop из-за особенностей рендеринга
 
 ## Скриншоты интерфейса
-![Изображение](https://wonderalexander.ru/screen1.png "Панели редактирования")
-![Изображение](https://wonderalexander.ru/screen2.png "Модальное окно экспорта")
+<p align="left">
+  <img src="https://wonderalexander.ru/screen1.png" alt="Панели редактирования" title="Панели редактирования" width="48%" style="margin-right:2%;" />
+  <img src="https://wonderalexander.ru/screen2.png" alt="Модальное окно экспорта" title="Модальное окно экспорта" width="48%" />
+</p>
 
 ## Архитектура
 **Стек:**
