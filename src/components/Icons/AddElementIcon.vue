@@ -1,0 +1,22 @@
+<script setup lang="ts">
+const { width, color } = defineProps<{
+  width: number;
+  color: string;
+}>();
+</script>
+
+<template>
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    :style="{ width: width, scale: width / 32 }"
+  >
+    <path
+      d="M14.75 17.25L14.75 28L17.25 28L17.25 17.25L28 17.25L28 14.75L17.25 14.75V4L14.75 4L14.75 14.75L4 14.75V17.25H14.75Z"
+      :fill="color"
+    />
+  </svg>
+</template>

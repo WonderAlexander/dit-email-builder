@@ -1,0 +1,33 @@
+<script setup lang="ts">
+const { width, color } = defineProps<{
+  width: number;
+  color: string;
+}>();
+</script>
+
+<template>
+  <svg
+    width="26"
+    height="26"
+    viewBox="0 0 26 26"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    :style="{ width: width, scale: width / 32 }"
+  >
+    <g clip-path="url(#clip0_4366_2680)">
+      <path
+        d="M26 5.41836V20.5867C26 23.5727 23.5676 26.0051 20.5816 26.0051H5.41836C2.43242 26 0 23.5676 0 20.5816V5.41836C0 2.43242 2.43242 0 5.41836 0H20.5867C23.5676 0 26 2.43242 26 5.41836ZM23.8316 5.41836C23.8316 3.62578 22.3742 2.16836 20.5816 2.16836H5.41836C3.62578 2.16836 2.16836 3.62578 2.16836 5.41836V20.5867C2.16836 22.3793 3.62578 23.8367 5.41836 23.8367H20.5867C22.3793 23.8367 23.8367 22.3793 23.8367 20.5867V5.41836H23.8316Z"
+        :fill="color"
+      />
+      <path
+        d="M14.0817 11.9187H18.4184V14.082H14.0817V18.4188H11.9184V14.082H7.58167V11.9187H11.9184V7.58203H14.0817V11.9187Z"
+        :fill="color"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_4366_2680">
+        <rect width="26" height="26" fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+</template>

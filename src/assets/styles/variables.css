@@ -1,0 +1,18 @@
+:root {
+  /*Colors*/
+  --main-bg-color: #EAEAEA;
+  --neutral-bg-color: #F5F5F5;
+  --element-accent-color: #9FAABA;
+
+  /*Text color*/
+  --primary-text-color: #101010;
+  --dit-accent-text-color: #e51740;
+
+
+  --emias-accent-text-color: #0066ff;
+  --it-accent-text-color: #1448b3;
+  --intern-accent-text-color: #6f2c9d;
+
+  /*Box-shadow*/
+  --main-box-shadow: 3px 5px 16px 0px rgba(184, 197, 218, 0.5);
+}
